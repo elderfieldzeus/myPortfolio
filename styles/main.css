@@ -9,6 +9,7 @@ body {
     min-height: 100%;
     color: white;
     background-color: #222222;
+    position: sticky;
     font-family: 'Poppins', sans-serif;
 }
 
