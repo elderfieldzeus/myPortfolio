@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    color: white;
+    background-color: #222222;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Home {
+    padding-top: 3rem;
+}
+
+.Home #Intro {
+    display: flex;
+    font-weight: 1000;
+    padding-top: 16rem;
+    padding-left: 2rem;
+    padding-right: 42rem;
+    font-size: 4rem;
+}
+
+.Home img{
+    position: absolute;
+    right: 6rem;
+    width: 35rem;
+    border-radius: 75px;
+    box-shadow: 0 0 12px rgba(0 0 0 15);
+    top: 9rem;
+}
+
+.About {
+    padding-top: 25rem;
+}
+
+.About #me{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.About .PicList {
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    justify-content: space-evenly;
+    gap: 15rem;
+}
+
+.About .PicList img {
+    height: 15rem;
+}
+
+.About .TitleList {
+    display: flex;
+    padding-top: 1rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 14rem;
+    text-decoration: underline;
+}
+
+.About .ParagraphList {
+    display: flex;
+    padding-top: .5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    justify-content: space-evenly;
+    text-justify: auto;
+    gap: 3rem;
+}
+
+.About .ParagraphList p {
+    text-align: justify;
+}

@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+
+header img{
+    width: 6rem;
+    color: black;
+}
+
+header .Lists {
+    display: flex;
+    gap: 48px;
+}
+
+header .Lists a {
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 1000;
+    font-size: 1.2rem;
+}
