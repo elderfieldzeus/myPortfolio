@@ -1,6 +1,7 @@
 footer {
     padding: 1rem 4rem;
     background-color: black;
+    font-weight: 1000;
 }
 
 footer h1 {
@@ -39,8 +40,4 @@ footer img {
 footer a{
     text-decoration: none;
     color: white;
-}
-
-footer .namelink {
-    font-weight: 1000;
 }

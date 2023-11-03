@@ -14,29 +14,29 @@ body {
 }
 
 .Home {
-    padding-top: 3rem;
+    display: flex;
+    padding-top: 1rem;
+    padding-right: 5rem;
+    justify-content: space-between;
+    gap: 2rem;
 }
 
 .Home #Intro {
     display: flex;
     font-weight: 1000;
-    padding-top: 16rem;
+    padding-top: 18rem;
     padding-left: 2rem;
-    padding-right: 42rem;
     font-size: 4rem;
 }
 
-.Home img{
-    position: absolute;
-    right: 6rem;
+.Home #self{
     width: 35rem;
     border-radius: 75px;
     box-shadow: 0 0 12px rgba(0 0 0 15);
-    top: 9rem;
 }
 
 .About {
-    padding-top: 25rem;
+    padding-top: 5rem
 }
 
 .About #AboutMe {
