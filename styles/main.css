@@ -38,7 +38,7 @@ body {
     padding-top: 25rem;
 }
 
-.About #me{
+.About #AboutMe {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -81,4 +81,15 @@ body {
 
 .About .ParagraphList p {
     text-align: justify;
+}
+
+.port {
+    padding-top: 5rem;
+}
+
+.port #Portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
 }
