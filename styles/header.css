@@ -1,6 +1,6 @@
 header {
     display: flex;
-    padding: 1rem 4rem;
+    padding: 0.5rem 3rem;
     font-size: 1rem;
     text-align: center;
     align-items: center;
@@ -9,7 +9,7 @@ header {
 }
 
 header img{
-    width: 6rem;
+    width: 4rem;
     color: black;
 }
 
@@ -23,6 +23,6 @@ header .Lists a {
     border-radius: 10px;
     text-decoration: none;
     color: white;
-    font-weight: 1000;
-    font-size: 1.2rem;
+    font-weight: 500;
+    font-size: 1rem;
 }

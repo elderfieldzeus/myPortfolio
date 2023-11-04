@@ -16,22 +16,40 @@ body {
 .Home {
     display: flex;
     padding-top: 1rem;
-    padding-right: 5rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    margin: 1rem -1rem;
+    align-items: center;
+    background-color: #111111;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1rem;
 }
 
-.Home #Intro {
-    display: flex;
+.Home .Intro {
+    display: block;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.Home .Intro p {
+    line-height: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.Home #name {
+    font-size: 5rem;
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+    line-height: 4rem;
     font-weight: 1000;
-    padding-top: 18rem;
-    padding-left: 2rem;
-    font-size: 4rem;
 }
 
 .Home #self{
+    display: flex;
+    justify-content: center;
     width: 35rem;
-    border-radius: 75px;
+    border-radius: 6px;
     box-shadow: 0 0 12px rgba(0 0 0 15);
 }
 
