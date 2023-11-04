@@ -15,7 +15,7 @@ header img{
 
 header .Lists {
     display: flex;
-    gap: 48px;
+    gap: 3rem;
 }
 
 header .Lists a {
