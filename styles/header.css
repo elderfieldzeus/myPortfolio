@@ -1,11 +1,15 @@
 header {
     display: flex;
+    background-color: #222222;
     padding: 0.5rem 3rem;
     font-size: 1rem;
     text-align: center;
     align-items: center;
     justify-content: space-between;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
     position: sticky;
+    top: 0;
 }
 
 header img{

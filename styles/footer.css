@@ -2,6 +2,7 @@ footer {
     padding: 0.25rem 4rem;
     background-color: black;
     font-weight: 1000;
+    margin: 0rem -0.5rem;
 }
 
 footer h1 {
@@ -31,6 +32,10 @@ footer img {
 
 #gmail, #github, #linkedin{
     padding-right: 1.5rem;
+}
+
+#github {
+    margin-right: -1rem;
 }
 
 #gmail {
