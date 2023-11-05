@@ -115,7 +115,7 @@ body {
     font-size: 1.5rem;
 }
 
-.port #theButton, #calcuApp {
+#theButton, #calcuApp {
     display: flex;
     justify-content: space-between;
     gap: 10rem;
