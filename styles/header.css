@@ -30,3 +30,7 @@ header .Lists a {
     font-weight: 500;
     font-size: 1rem;
 }
+
+header .Lists a:hover {
+    color: gray;
+}
