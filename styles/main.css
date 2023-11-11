@@ -24,7 +24,8 @@ body {
 }
 
 .Home .Intro {
-    display: block;
+    display: grid;
+    justify-items: left;
     margin-top: -8vh;
 }
 
