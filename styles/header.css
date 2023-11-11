@@ -2,7 +2,7 @@ header {
     display: flex;
     background-color: #222222;
     padding: 0.5rem 3rem;
-    font-size: 1rem;
+    font-size: 2vh;
     text-align: center;
     align-items: center;
     justify-content: space-between;
@@ -12,7 +12,7 @@ header {
 }
 
 header img{
-    width: 4rem;
+    width: 7vh;
     color: black;
 }
 
@@ -27,7 +27,6 @@ header .Lists a {
     text-decoration: none;
     color: white;
     font-weight: 500;
-    font-size: 1rem;
 }
 
 header .Lists a:hover {

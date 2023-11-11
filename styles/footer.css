@@ -2,6 +2,7 @@ footer {
     padding: 0.25rem 4rem;
     background-color: black;
     font-weight: 1000;
+    font-size: 2vh;
     margin: 0rem -0.5rem;
 }
 
@@ -9,7 +10,7 @@ footer h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 3vh;
 }
 
 footer .options{
@@ -27,7 +28,7 @@ footer .options{
 }
 
 footer img {
-    width: 4rem;
+    width: 4vw;
 }
 
 #gmail, #github, #linkedin{
@@ -39,7 +40,7 @@ footer img {
 }
 
 #gmail {
-    width: 2.5rem;
+    width: 2vw;
 }
 
 footer a{
