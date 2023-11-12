@@ -73,9 +73,9 @@ body {
     max-width: 100%;
 }
 
-.differentAbout .images, h2, p {
-    display: flex;
-    justify-content: center;
+.differentAbout div {
+    display: grid;
+    justify-items: center;
 }
 
 .differentAbout h2 {
@@ -90,7 +90,8 @@ body {
 }
 
 .port {
-    padding-top: 5rem;
+    margin-top: 20vh;
+    font-size: 2vh;
 }
 
 .port #Portfolio{
@@ -103,17 +104,19 @@ body {
 #theButton, #calcuApp {
     display: flex;
     justify-content: space-between;
-    gap: 10rem;
-    margin: 4rem 6rem;
+    gap: 7vh;
+    margin: 8vh 10vh;
     align-items: center;
+    text-align: justify;
 }
 
 .port a {
     text-decoration: none;
     color: white;
-    padding: 0.5rem 1rem;
+    font-size: 1.8vh;
+    padding: 1vh 2vh;
     background-color: black;
-    border-radius: 5rem;
+    border-radius: 5vh;
 }
 
 .port a:hover {
@@ -124,22 +127,13 @@ body {
     display: block;
 }
 
-.port .description .h1 {
-    font-size: 1rem;
+.port .description h1 {
+    font-size: 3vh;
 }
 .port img {
     display: block;
-    border-radius: 3rem;
-}
-
-#theButton img {
-    height: 40rem;
-}
-
-#calcuApp img {
-    height: 40rem;
-}
-
-#theButton p {
-    margin-right: 3rem;
+    border-radius: 2.5vh;
+    height: 70vh;
+    width: auto;
+    max-width: 100%;
 }
