@@ -3,6 +3,9 @@
 
 html {
     height: 100%;
+    scroll-padding-top: 7vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 body {
@@ -15,9 +18,9 @@ body {
 
 .Home {
     display: flex;
-    padding: 8vh 30vh;
+    padding: 9vh 17vw;
     padding-bottom: 0vh;
-    margin: 2vh -5vh;
+    margin: 2vh -2.5vw;
     align-items: center;
     background-color: #111111;
     justify-content: space-around;
