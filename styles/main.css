@@ -3,7 +3,7 @@
 
 html {
     height: 100%;
-    scroll-padding-top: 6vh;
+    scroll-padding-top: 8vh;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
@@ -49,12 +49,12 @@ body {
 
 .Home #self{
     display: flex;
-    width: 36vw;
+    width: 35vw;
 }
 
 .About {
-    margin-top: -3rem;
-    padding-top: 5rem;
+    margin-top: 2vh;
+    padding-top: 5vh;
 }
 
 .About #AboutMe {
@@ -93,7 +93,7 @@ body {
 }
 
 .port {
-    margin-top: 20vh;
+    margin-top: 18vh;
     font-size: 2vh;
 }
 
@@ -102,6 +102,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 2.5vh;
+    margin-bottom: -2vh;
 }
 
 #theButton, #calcuApp {
