@@ -1,12 +1,13 @@
 header {
     display: flex;
     background-color: #222222;
-    padding: 0.5rem 3rem;
+    padding: 1.5vh 3vw;
     font-size: 2vh;
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    margin: 0rem -0.5rem;
+    margin: 0vh -0.5vw;
+    margin-top: -2vh;
     position: sticky;
     top: 0;
 }
@@ -14,15 +15,16 @@ header {
 header img{
     width: 7vh;
     color: black;
+    
 }
 
 header .Lists {
     display: flex;
-    gap: 3rem;
+    gap: 3vw;
 }
 
 header .Lists a {
-    padding: .5rem 1rem;
+    padding: 0.5vh 1vw;
     border-radius: 10px;
     text-decoration: none;
     color: white;

@@ -3,7 +3,7 @@
 
 html {
     height: 100%;
-    scroll-padding-top: 7vh;
+    scroll-padding-top: 6vh;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
@@ -20,7 +20,7 @@ body {
     display: flex;
     padding: 9vh 17vw;
     padding-bottom: 0vh;
-    margin: 2vh -2.5vw;
+    margin: 0vh -2.5vw;
     align-items: center;
     background-color: #111111;
     justify-content: space-around;
@@ -34,13 +34,13 @@ body {
 
 .Home .Intro p {
     line-height: 3rem;
-    font-size: 3.5vh;
+    font-size: 4vh;
     font-weight: 500;
 }
 
 .Home #name {
     display: flex;
-    font-size: 8vh;
+    font-size: 9vh;
     margin-top: -2rem;
     margin-bottom: -2rem;
     line-height: 4rem;
@@ -49,7 +49,7 @@ body {
 
 .Home #self{
     display: flex;
-    width: 57vh;
+    width: 36vw;
 }
 
 .About {
